@@ -1,6 +1,6 @@
 {
   "name": "@cryptix/grpc-node",
-  "version": "1.0.9",
+  "version": "0.0.7",
   "description": "Node gRPC for cryptix-wallet",
   "main": "dist/index.js",
   "authors": [
@@ -18,7 +18,7 @@
     "prepare": "tsc"
   },
   "dependencies": {
-    "@cryptix/grpc": "github:cryptix-network/cryptix-grpc"
+    "@cryptix/grpc": "https://github.com/cryptix-network/cryptix-grpc"
   },
   "devDependencies": {
     "@types/node": "^14.14.9",
